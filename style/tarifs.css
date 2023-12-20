@@ -1,0 +1,53 @@
+.tarifs-main {
+    margin: auto;
+    white-space: pre-line;
+  }
+  
+  table {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    padding: 15px;
+    border: 1px solid #eb78ff;
+  }
+  
+  td {
+    padding: 25px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #eb78ff;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  .section-tarifs {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 996px) {
+    .section-tarifs {
+    display: none;
+  }
+}
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .copyright {
+    text-align: center;
+    flex-grow: 1;
+    color: #eb78ff;
+}
